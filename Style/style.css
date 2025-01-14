@@ -1,0 +1,154 @@
+body {
+    font-family: "Nothing You Could Do", serif;
+  margin: 50px 50px 0 50px;
+  background-color: #F2E5BF;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+.logo {
+  height: 300px;
+    width: 500px;
+    float: left;
+}
+span {
+  color: orange;
+  text-transform: uppercase;
+  
+}
+
+.about {
+ 
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  bottom: 120px; 
+  font-size: 30px;
+  color: orange;
+  font-weight: 600;
+}
+
+h1 {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px ;
+  text-align: center;
+  font-family: "Knewave", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.reach {
+  width: 400px;
+  height: 400px;
+  margin-right: 50px;
+  float: left;
+}
+
+.dream {
+    display: block;
+    height: 10px;
+    font-family: "Nothing You Could Do", serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    font-style: bold italic;
+    text-decoration: wavy underline;
+    text-align: center center;
+    color: darkorange;
+}
+
+.dream-title {
+  text-decoration: wavy underline;
+  color: orange;
+  text-align: center;
+}
+
+.team-title {
+  text-decoration: wavy underline;
+  color: orange;
+  text-align: center;
+}
+
+.left {
+    float: left;
+    font-size: 1.5rem;
+}
+
+.right{
+  margin-top: 5%;
+  display: block;
+  float: right;
+  font-size: 1.5rem;
+}
+
+.team {
+  width: 400px;
+  height: 400px;
+  float: right;
+  margin-left: 5%;
+}
+
+footer {
+  text-align: right;
+  color: orange;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 316px) and (max-width: 860px) {
+  .logo {
+    width: 500px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .dream {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+.team {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.team img {
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline;
+  object-fit: cover;
+}
+  
+  .dream img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: contain;
+  }
+
+ 
+}
